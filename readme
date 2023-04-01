@@ -1,0 +1,7 @@
+1. build
+yarn add --dev parcel
+yarn parcel src/index.html
+
+2. icon
+if you wanna change the icon, make sure create new icon link.
+如果要对icon进行变更，一定要生成新的icon链接。
