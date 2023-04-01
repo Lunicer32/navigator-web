@@ -3,7 +3,7 @@ const $lastLi = $siteList.find('li.last')
 const x = localStorage.getItem('x')
 const xObject = JSON.parse(x)
 const hashMap = xObject || [
-    { logo: 'W', url: 'https://www.w3school.com.cn/index.html' },
+    { logo: 'W', url: 'https://www.w3school.com.cn/' },
     { logo: 'G', url: 'https://github.com/' }
 ]
 const simplifyUrl = (url) => {
